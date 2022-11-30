@@ -1,5 +1,8 @@
 function palindrome(string) {
-  // Your Code Here
+  let splitString = string.split("");
+  let reverseArray = splitString.reverse();
+  let joinArray = reverseArray.join("");
+  return joinArray;
 }
 
 console.log(palindrome("civic")); // true
